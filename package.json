@@ -10,7 +10,7 @@
     "test:watch": "npm run test -- --watch",
     "build": "webpack -p --define process.env.NODE_ENV='\"production\"' --progress --colors"
   },
-  "author": "",
+  "author": "Hristo Valtchev",
   "license": "ISC",
   "devDependencies": {
     "babel-core": "^6.2.1",
@@ -26,6 +26,7 @@
     "react": "16.3.2",
     "react-dom": "16.3.2",
     "react-redux": "5.0.7",
-    "redux": "4.0.0"
+    "redux": "4.0.0",
+    "youtube-api-search": "0.0.5"
   }
 }
